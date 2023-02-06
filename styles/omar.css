@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    align-items: center;
+}
+
+body {
+    cursor: url("../assets/daggerv3.png"), auto;
+    height: 100%;
+    background-image: url('../assets/omars-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+div {
+    flex: right;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+strong {
+    background-color: gray;
+    opacity: .95;
+    border-radius: 25px;
+    font-size: large;
+    text-align: center;
+}
+
+.back {
+    width: 20%;
+}
+
+span {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
