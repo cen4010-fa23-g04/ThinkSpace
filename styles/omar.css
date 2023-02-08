@@ -16,12 +16,14 @@ body {
 }
 
 div {
-    flex: right;
     margin: auto;
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 strong {
@@ -31,17 +33,18 @@ strong {
     font-size: large;
     text-align: center;
 }
-
-.back {
-    width: 20%;
-}
-
-span {
-    width: 100px;
-    height: 100px;
+p{  
+    background-color: gray;
+    opacity: .95;
+    border-radius: 25px;
+    display: flex;
     position: relative;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    justify-content: center;
+    width: 300%;
+    margin: 0%;
+    top:20px;
+    left:-40px;
+}
+a{
+    cursor: url("../assets/daggerv3.png"), auto;
 }
