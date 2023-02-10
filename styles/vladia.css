@@ -18,6 +18,8 @@
 
 }
 
+
+
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -64,7 +66,7 @@ img{
   width: 220px;
   box-shadow: 12px 12px 2px 1px #786fa6;
   flex-basis: 100%;
-  order: 2;
+  
   float: right;
   margin-right: 5em;
   margin-top: 15px;
@@ -73,18 +75,74 @@ img{
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
-
 h1 {
-  color: hsl(0, 0%, 28%);
   font-size: 60px;
   font-weight: bold;
   font-family: 'Bungee Shade', cursive;
   letter-spacing: 7px;
-  cursor: pointer;
   text-transform: uppercase;
   text-align: center;
   
 }
+
+
+
+a{
+  font-weight: bold;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 20px;
+ 
+}
+
+/* visited link */
+a:visited {
+  color: #ffb142;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9AECDB;
+}
+
+/***** Global Slide *****/
+.slide-right, .slide-left {
+  width: 100%;
+}
+
+/***** Slide Right *****/
+.slide-right {
+  bottom: 10px;
+  position: absolute;
+  font-size: 17px;
+  left: 5em;
+  animation: 3s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+/***** Slide Left *****/
+.slide-left {
+  animation: 3s slide-left;
+  bottom: 10px;
+  position: absolute;
+  font-size: 17px;
+  left: 65em;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
 
 
 
@@ -93,6 +151,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
+  
 }
 
 @keyframes gradient {
@@ -106,3 +165,5 @@ body {
       background-position: 0% 50%;
   }
 }
+
+
