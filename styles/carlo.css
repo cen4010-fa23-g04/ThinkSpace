@@ -80,9 +80,35 @@ button{
     top:20px;
     left:-60px;
 }
+#my-git-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 209, 6, 0.674);
+    opacity: .95;
+    border-radius: 25px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    width: 200%;
+    margin: 0%;
+    top:20px;
+    left:-60px;
+}
 #group-git-link{
     color: aliceblue;
     background-color: rgba(255, 58, 58, 0.514);
+    opacity: .95;
+    border-radius: 25px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    width: 200%;
+    margin: 0%;
+    top:20px;
+    left:-70px;
+}
+#group-git-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 209, 6, 0.674);
     opacity: .95;
     border-radius: 25px;
     /* display: flex; */
@@ -107,3 +133,18 @@ button{
     top:20px;
     left:-75px;
 }
+#jira-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 209, 6, 0.674);
+    opacity: .95;
+    border-radius: 25px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    width: 200%;
+    margin: 0%;
+    top:20px;
+    left:-75px;
+}
+
+
