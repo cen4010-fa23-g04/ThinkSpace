@@ -2,27 +2,156 @@
     margin: auto;
   width: 60%;
   border: 3px solid ;
-  padding: 60px;
+  padding: 40px;
 
   box-shadow: 12px 12px 2px 1px #786fa6;
   background-color: #f3a683;
 
-  font-size: larger;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: left;
+  margin-top: 2em;
+
 
 }
 
-.myPic{
-  border-radius: 50%;
-  width: 200px;
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+
+
+
+img{
+  border-radius: 100%;
+  width: 220px;
   box-shadow: 12px 12px 2px 1px #786fa6;
+  flex-basis: 100%;
+  
+  float: right;
+  margin-right: 5em;
+  margin-top: 15px;
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Bungee Shade', cursive;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+
+
+a{
+  font-weight: bold;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 20px;
+ 
+}
+
+/* visited link */
+a:visited {
+  color: #ffb142;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9AECDB;
+}
+
+/***** Global Slide *****/
+.slide-right, .slide-left {
+  width: 100%;
+}
+
+/***** Slide Right *****/
+.slide-right {
+  bottom: 10px;
+  position: absolute;
+  font-size: 17px;
+  left: 5em;
+  animation: 3s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+/***** Slide Left *****/
+.slide-left {
+  animation: 3s slide-left;
+  bottom: 10px;
+  position: absolute;
+  font-size: 17px;
+  left: 65em;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+
 
 body {
   background: linear-gradient(-45deg, #f5cd79, #574b90, #e77f67, #c44569);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
+  
 }
 
 @keyframes gradient {
@@ -36,3 +165,5 @@ body {
       background-position: 0% 50%;
   }
 }
+
+
