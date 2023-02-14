@@ -115,7 +115,7 @@ a:hover {
   position: absolute;
   font-size: 17px;
   left: 5em;
-  animation: 3s slide-right;
+  animation: 3.5s slide-right;
 }
 @keyframes slide-right {
   from {
@@ -128,7 +128,7 @@ a:hover {
 
 /***** Slide Left *****/
 .slide-left {
-  animation: 3s slide-left;
+  animation: 3.5s slide-left;
   bottom: 10px;
   position: absolute;
   font-size: 17px;
