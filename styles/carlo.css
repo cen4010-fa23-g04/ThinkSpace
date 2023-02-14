@@ -4,15 +4,16 @@ html {
 }
 
 body {
-    height: 100%;
-    margin: 0;
-    align-items: center;
-    display: flex;
-    background: linear-gradient(-45deg, gray, grey, #41424C, grey);
+    /* height: 100%; */
+    /* margin: 0; */
+    /* align-items: center; */
+    /* display: flex; */
+    background: linear-gradient(-45deg, rgb(152, 20, 20), rgb(145, 66, 142), #8a2aca, rgb(144, 30, 30));
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 2s infinite;
 	height: 100vh;
 }
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -25,7 +26,9 @@ body {
 	}
 }
 
+
 div {
+    
     margin: auto;
     width: 100%;
     align-items: center;
@@ -35,21 +38,72 @@ div {
     justify-content: space-between;
 }
 strong {
-    background-color: gray;
+    background-color: rgba(210, 57, 57, 0.491);
+    color: aliceblue;
     opacity: .95;
     border-radius: 25px;
     font-size: large;
     text-align: center;
 }
-p{  
-    background-color: gray;
+h1{
+    color: aliceblue;
+    padding-top: 100;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Bungee Shade', Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+button{  
+    color: aliceblue;
+    background-color: rgba(255, 58, 58, 0.514);
     opacity: .95;
     border-radius: 25px;
-    display: flex;
     position: relative;
     justify-content: center;
-    width: 300%;
+    width: 200%;
     margin: 0%;
     top:20px;
-    left:-40px;
+    left:-70px;
+}
+#my-git-link{
+    color: aliceblue;
+    background-color: rgba(255, 58, 58, 0.514);
+    opacity: .95;
+    border-radius: 25px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    width: 200%;
+    margin: 0%;
+    top:20px;
+    left:-60px;
+}
+#group-git-link{
+    color: aliceblue;
+    background-color: rgba(255, 58, 58, 0.514);
+    opacity: .95;
+    border-radius: 25px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    width: 200%;
+    margin: 0%;
+    top:20px;
+    left:-70px;
+}
+
+#jira-link{
+    color: aliceblue;
+    background-color: rgba(255, 58, 58, 0.514);
+    opacity: .95;
+    border-radius: 25px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    width: 200%;
+    margin: 0%;
+    top:20px;
+    left:-75px;
 }
