@@ -24,7 +24,6 @@ div {
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 strong {
@@ -34,6 +33,7 @@ strong {
     border-radius: 25px;
     font-size: large;
     text-align: center;    
+    bottom:100px;
     text-shadow:
     0.03em 0 black,
     0 0.03em black,
