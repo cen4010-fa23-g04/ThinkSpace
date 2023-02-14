@@ -1,6 +1,6 @@
 # Mile-0
 ## Github
-### Set up by Carlo Leiva
+### Set up by Carlo Leiva 
 
 ## Jira
 <p align="center">
