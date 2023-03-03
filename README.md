@@ -1,4 +1,4 @@
-# ThinkSpeak
+# ThinkSpace
 ## Github
 ### Set up by Carlo Leiva 
 
