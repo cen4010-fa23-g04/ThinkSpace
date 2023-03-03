@@ -515,7 +515,7 @@ Instagram is a social media platform that focuses on visual content, allowing us
 
  
 
-**TicTok**
+**TikTok**
 
 TikTok is a social media platform that allows users to create and share short-form videos with their followers.
 
