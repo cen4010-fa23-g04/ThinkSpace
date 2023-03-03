@@ -285,19 +285,24 @@ Naming Conventions: We will be using camel casing as the naming convention for t
 ## **Use Cases**
 
 
-### Use Case(1): Users will be able to create an account and send messages and images to one another on the chat application platform in real time to communicate with one another.
+### Use Case(1): 
+Users will be able to create an account and send messages and images to one another on the chat application platform in real time to communicate with one another.
 
 
-### Use Case(2): Users will be able to get a summary of the messages based on a person, a selected topic, or a range of dates.
+### Use Case(2): 
+Users will be able to get a summary of the messages based on a person, a selected topic, or a range of dates.
 
 
-### Use Case(3): Users will be able to get the sentiment analysis of messages, basically sentiment analysis is the emotion or feeling conveyed.
+### Use Case(3): 
+Users will be able to get the sentiment analysis of messages, basically sentiment analysis is the emotion or feeling conveyed.
 
 
-### Use Case(4): Users will be able to ask questions to ChatGPT through the chat application, allowing for the users to ask questions and get answers in moments.
+### Use Case(4): 
+Users will be able to ask questions to ChatGPT through the chat application, allowing for the users to ask questions and get answers in moments.
 
 
-### Use Case(5): Users will be able to join into group chats and message other group members as well as view messages sent by other group members.
+### Use Case(5): 
+Users will be able to join into group chats and message other group members as well as view messages sent by other group members.
 
 
 ## **High Level System Architecture**
