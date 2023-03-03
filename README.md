@@ -1,4 +1,4 @@
-# Mile-0
+# ThinkSpeak
 ## Github
 ### Set up by Carlo Leiva 
 
