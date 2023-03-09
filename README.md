@@ -29,7 +29,7 @@ Date  3/3/23
 
 **Github**
 
-[https://github.com/cen4010-fa23-g04/M1](https://github.com/cen4010-fa23-g04/M1)
+[https://github.com/cen4010-fa23-g04/ThinkSpace](https://github.com/cen4010-fa23-g04/ThinkSpace)
 
 
 ## TABLE OF CONTENTS
